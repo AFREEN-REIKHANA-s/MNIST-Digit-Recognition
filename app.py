@@ -48,7 +48,7 @@ if not os.path.exists(model_path):
 
 
 # Load model
-model = load_model("C:\\Users\\Dell\\mnist_model.keras")
+model = load_model(model_path)
 
 
 # ============================================================
